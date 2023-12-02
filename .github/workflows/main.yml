@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: sumihiro3/custom-action-sample@v0.2
+        uses: sumihiro3/custom-action-sample@v0.3
         with:
           who-to-greet: 'sumihiro3'
       # Use the output from the `hello` step
